@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'HtmlOverXmpp' target in the 'HtmlOverXmpp' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

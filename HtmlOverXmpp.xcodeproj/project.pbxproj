@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0CAB5AB151926180060B46C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CAB5AA151926180060B46C /* Cocoa.framework */; };
+		B0CAB5B5151926180060B46C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0CAB5B3151926180060B46C /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0CAB5A7151926180060B46C /* HtmlOverXmpp.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HtmlOverXmpp.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CAB5AA151926180060B46C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B0CAB5AD151926180060B46C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B0CAB5AE151926180060B46C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B0CAB5AF151926180060B46C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0CAB5B2151926180060B46C /* HtmlOverXmpp-Info.plist */ = {isa = PBXFileReference; path = "HtmlOverXmpp-Info.plist"; sourceTree = "<group>"; };
+		B0CAB5B4151926180060B46C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0CAB5B6151926180060B46C /* HtmlOverXmpp-Prefix.pch */ = {isa = PBXFileReference; path = "HtmlOverXmpp-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0CAB5A4151926180060B46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CAB5AB151926180060B46C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0CAB59C151926170060B46C = {
+			isa = PBXGroup;
+			children = (
+				B0CAB5B0151926180060B46C /* HtmlOverXmpp */,
+				B0CAB5A9151926180060B46C /* Frameworks */,
+				B0CAB5A8151926180060B46C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0CAB5A8151926180060B46C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0CAB5A7151926180060B46C /* HtmlOverXmpp.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0CAB5A9151926180060B46C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0CAB5AA151926180060B46C /* Cocoa.framework */,
+				B0CAB5AC151926180060B46C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0CAB5AC151926180060B46C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0CAB5AD151926180060B46C /* AppKit.framework */,
+				B0CAB5AE151926180060B46C /* CoreData.framework */,
+				B0CAB5AF151926180060B46C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B0CAB5B0151926180060B46C /* HtmlOverXmpp */ = {
+			isa = PBXGroup;
+			children = (
+				B0CAB5B1151926180060B46C /* Supporting Files */,
+			);
+			path = HtmlOverXmpp;
+			sourceTree = "<group>";
+		};
+		B0CAB5B1151926180060B46C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0CAB5B2151926180060B46C /* HtmlOverXmpp-Info.plist */,
+				B0CAB5B3151926180060B46C /* InfoPlist.strings */,
+				B0CAB5B6151926180060B46C /* HtmlOverXmpp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0CAB5A6151926180060B46C /* HtmlOverXmpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CAB5B9151926180060B46C /* Build configuration list for PBXNativeTarget "HtmlOverXmpp" */;
+			buildPhases = (
+				B0CAB5A3151926180060B46C /* Sources */,
+				B0CAB5A4151926180060B46C /* Frameworks */,
+				B0CAB5A5151926180060B46C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HtmlOverXmpp;
+			productName = HtmlOverXmpp;
+			productReference = B0CAB5A7151926180060B46C /* HtmlOverXmpp.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0CAB59E151926180060B46C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Mobio Identity Systems, Inc";
+			};
+			buildConfigurationList = B0CAB5A1151926180060B46C /* Build configuration list for PBXProject "HtmlOverXmpp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0CAB59C151926170060B46C;
+			productRefGroup = B0CAB5A8151926180060B46C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0CAB5A6151926180060B46C /* HtmlOverXmpp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0CAB5A5151926180060B46C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CAB5B5151926180060B46C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0CAB5A3151926180060B46C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0CAB5B3151926180060B46C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0CAB5B4151926180060B46C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0CAB5B7151926180060B46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B0CAB5B8151926180060B46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B0CAB5BA151926180060B46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HtmlOverXmpp/HtmlOverXmpp-Prefix.pch";
+				INFOPLIST_FILE = "HtmlOverXmpp/HtmlOverXmpp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B0CAB5BB151926180060B46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HtmlOverXmpp/HtmlOverXmpp-Prefix.pch";
+				INFOPLIST_FILE = "HtmlOverXmpp/HtmlOverXmpp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0CAB5A1151926180060B46C /* Build configuration list for PBXProject "HtmlOverXmpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CAB5B7151926180060B46C /* Debug */,
+				B0CAB5B8151926180060B46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CAB5B9151926180060B46C /* Build configuration list for PBXNativeTarget "HtmlOverXmpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CAB5BA151926180060B46C /* Debug */,
+				B0CAB5BB151926180060B46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0CAB59E151926180060B46C /* Project object */;
+}

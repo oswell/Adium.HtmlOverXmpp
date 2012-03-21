@@ -3,7 +3,7 @@
 //  HtmlOverXmpp
 //
 //  Created by Mike Oswell on 12-03-20.
-//  Copyright (c) 2012 Oswell, Inc. All rights reserved.
+//  Copyright (c) 2012 Mobio Identity Systems, Inc. All rights reserved.
 //
 
 #import <Adium/AIPlugin.h>

@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AIMinimumAdiumVersionRequirement</key>
+	<string>1.4</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -25,6 +27,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2012 Mobio Identity Systems, Inc. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
-	<string></string>
+	<string>HtmlOverXmpp</string>
 </dict>
 </plist>

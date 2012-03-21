@@ -9,17 +9,27 @@
 /* Begin PBXBuildFile section */
 		B0CAB5AB151926180060B46C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CAB5AA151926180060B46C /* Cocoa.framework */; };
 		B0CAB5B5151926180060B46C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0CAB5B3151926180060B46C /* InfoPlist.strings */; };
+		B0CAB5BD151927EA0060B46C /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CAB5BC151927EA0060B46C /* Adium.framework */; };
+		B0CAB5C01519280F0060B46C /* HtmlOverXmpp.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CAB5BF1519280F0060B46C /* HtmlOverXmpp.m */; };
+		B0CAB5C4151930080060B46C /* AIUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CAB5C3151930080060B46C /* AIUtilities.framework */; };
+		B0CAB5C6151939E50060B46C /* AutoHyperlinks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CAB5C5151939E50060B46C /* AutoHyperlinks.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B0CAB5A7151926180060B46C /* HtmlOverXmpp.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HtmlOverXmpp.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CAB5A7151926180060B46C /* HtmlOverXmpp.AdiumPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HtmlOverXmpp.AdiumPlugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CAB5AA151926180060B46C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B0CAB5AD151926180060B46C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		B0CAB5AE151926180060B46C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		B0CAB5AF151926180060B46C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B0CAB5B2151926180060B46C /* HtmlOverXmpp-Info.plist */ = {isa = PBXFileReference; path = "HtmlOverXmpp-Info.plist"; sourceTree = "<group>"; };
+		B0CAB5B2151926180060B46C /* HtmlOverXmpp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HtmlOverXmpp-Info.plist"; sourceTree = "<group>"; };
 		B0CAB5B4151926180060B46C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B0CAB5B6151926180060B46C /* HtmlOverXmpp-Prefix.pch */ = {isa = PBXFileReference; path = "HtmlOverXmpp-Prefix.pch"; sourceTree = "<group>"; };
+		B0CAB5B6151926180060B46C /* HtmlOverXmpp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HtmlOverXmpp-Prefix.pch"; sourceTree = "<group>"; };
+		B0CAB5BC151927EA0060B46C /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adium.framework; sourceTree = "<group>"; };
+		B0CAB5BE1519280F0060B46C /* HtmlOverXmpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlOverXmpp.h; sourceTree = "<group>"; };
+		B0CAB5BF1519280F0060B46C /* HtmlOverXmpp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlOverXmpp.m; sourceTree = "<group>"; };
+		B0CAB5C215192F270060B46C /* AIContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIContentController.h; sourceTree = "<group>"; };
+		B0CAB5C3151930080060B46C /* AIUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AIUtilities.framework; sourceTree = "<group>"; };
+		B0CAB5C5151939E50060B46C /* AutoHyperlinks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AutoHyperlinks.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +38,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0CAB5AB151926180060B46C /* Cocoa.framework in Frameworks */,
+				B0CAB5BD151927EA0060B46C /* Adium.framework in Frameworks */,
+				B0CAB5C4151930080060B46C /* AIUtilities.framework in Frameworks */,
+				B0CAB5C6151939E50060B46C /* AutoHyperlinks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +59,7 @@
 		B0CAB5A8151926180060B46C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0CAB5A7151926180060B46C /* HtmlOverXmpp.bundle */,
+				B0CAB5A7151926180060B46C /* HtmlOverXmpp.AdiumPlugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +67,9 @@
 		B0CAB5A9151926180060B46C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0CAB5C5151939E50060B46C /* AutoHyperlinks.framework */,
+				B0CAB5C3151930080060B46C /* AIUtilities.framework */,
+				B0CAB5BC151927EA0060B46C /* Adium.framework */,
 				B0CAB5AA151926180060B46C /* Cocoa.framework */,
 				B0CAB5AC151926180060B46C /* Other Frameworks */,
 			);
@@ -73,7 +89,10 @@
 		B0CAB5B0151926180060B46C /* HtmlOverXmpp */ = {
 			isa = PBXGroup;
 			children = (
+				B0CAB5C115192EFD0060B46C /* adium */,
 				B0CAB5B1151926180060B46C /* Supporting Files */,
+				B0CAB5BE1519280F0060B46C /* HtmlOverXmpp.h */,
+				B0CAB5BF1519280F0060B46C /* HtmlOverXmpp.m */,
 			);
 			path = HtmlOverXmpp;
 			sourceTree = "<group>";
@@ -86,6 +105,14 @@
 				B0CAB5B6151926180060B46C /* HtmlOverXmpp-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0CAB5C115192EFD0060B46C /* adium */ = {
+			isa = PBXGroup;
+			children = (
+				B0CAB5C215192F270060B46C /* AIContentController.h */,
+			);
+			name = adium;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +132,7 @@
 			);
 			name = HtmlOverXmpp;
 			productName = HtmlOverXmpp;
-			productReference = B0CAB5A7151926180060B46C /* HtmlOverXmpp.bundle */;
+			productReference = B0CAB5A7151926180060B46C /* HtmlOverXmpp.AdiumPlugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -150,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0CAB5C01519280F0060B46C /* HtmlOverXmpp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,24 +243,32 @@
 		B0CAB5BA151926180060B46C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HtmlOverXmpp/HtmlOverXmpp-Prefix.pch";
 				INFOPLIST_FILE = "HtmlOverXmpp/HtmlOverXmpp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "$(HOME)/Library/Application Support/Adium 2.0/PlugIns/";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = AdiumPlugin;
 			};
 			name = Debug;
 		};
 		B0CAB5BB151926180060B46C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HtmlOverXmpp/HtmlOverXmpp-Prefix.pch";
 				INFOPLIST_FILE = "HtmlOverXmpp/HtmlOverXmpp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "$(HOME)/Library/Application Support/Adium 2.0/PlugIns/";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = AdiumPlugin;
 			};
 			name = Release;
 		};

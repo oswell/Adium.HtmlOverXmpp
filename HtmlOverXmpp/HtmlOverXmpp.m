@@ -53,15 +53,22 @@
         
         NSUInteger start, stop = 0;
         
-        [stringScanner scanUpToString:@"<a" intoString:NULL];
+        [stringScanner scanUpToString:@"<a " intoString:NULL];
         
         // If we scanned for a "a" tag but couldn't find one then we will end up at the end of the string.
         if ( stringScanner.scanLocation == newString.string.length ) {
             break;
         }
         
+//        NSLog(@"Parsing {location: %lu} {length: %lu} [%@]", stringScanner.scanLocation, newString.string.length, newString.string);
         start = stringScanner.scanLocation;                
         [stringScanner scanUpToString:@"href" intoString:NULL];
+        
+        // There are cases where we might find "<a " but no href because it's not REALLY html a element.
+        if ( stringScanner.scanLocation == newString.string.length ) {
+            break;
+        }        
+        
         [stringScanner scanString:@"href=\"" intoString:NULL];
         [stringScanner scanUpToString:@"\"" intoString:&href];                
         [stringScanner scanUpToString:@">" intoString:NULL];

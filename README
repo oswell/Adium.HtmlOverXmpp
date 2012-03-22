@@ -1,6 +1,4 @@
-Plugin for Adium v 1.4 that removes some HTML markup from incoming messages and parses out anchor tags so that they get
-displayed cleanly.  This plugin is far from complete with regards to handling HTML.  It was build primarily as a quick hack 
-so that messages posted into a HipChat group from GitHub didn't display as HTML.
+Plugin for Adium v 1.4 that removes some HTML markup from incoming messages and parses out anchor tags so that they get displayed cleanly.  This plugin is far from complete with regards to handling HTML.  It was build primarily as a quick hack so that messages posted into a HipChat group from GitHub didn't display as HTML.
 
 For the time being, the plugin only does the following;
 	1.  Removes all <img> elements from incoming messages.

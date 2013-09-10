@@ -30,8 +30,8 @@
 
     while ((range = [string rangeOfString:@"<img[^>]+>" options:NSRegularExpressionSearch]).location != NSNotFound)
         string = [string stringByReplacingCharactersInRange:range withString:@""];
-    while ((range = [string rangeOfString:@"<br[^>]+>" options:NSRegularExpressionSearch]).location != NSNotFound)
-        string = [string stringByReplacingCharactersInRange:range withString:@""];
+    while ((range = [string rangeOfString:@"<br[^>]*>" options:NSRegularExpressionSearch]).location != NSNotFound)
+        string = [string stringByReplacingCharactersInRange:range withString:@"\n"];
     
     return string; 
 }
